@@ -1,8 +1,10 @@
 using System;
- namespace A{
-     public static class Program {
-         public static void main(){
-         Console.WriteLine("hello world");
+ namespace HelloWorldAppliaction{
+    class Program {
+         static void Main(string[] args){
+         Console.WriteLine("hello world!");
+         Console.ReadKey();
+
          }               
      }
  }
