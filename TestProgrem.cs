@@ -1,10 +1,13 @@
 using System;
- namespace HelloWorldAppliaction{
-    class Program {
-         static void Main(string[] args){
-         Console.WriteLine("hello world!");
-         Console.ReadKey();
-
-         }               
-     }
- }
+namespace HelloWorldApplication
+{
+    class HelloWorld
+    {
+        static void Main(string[] args)
+        {
+            /* 我的第一个 C# 程序*/
+            Console.WriteLine("Hello World!");
+            Console.ReadKey();
+        }
+    }
+}
