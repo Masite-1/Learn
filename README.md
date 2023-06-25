@@ -61,3 +61,33 @@ ipconfig/flushdns
 git clone 链接
 ```
 
+—————————————————————————————————————————
+
+分割线
+
+
+
+2023/6/25 使用ssh克隆库，连接有效
+
+# git everything up-to-date解决方法
+
+### 现象
+
+明明已经更改了本地代码，但是git push的时候一直提示everything up-to-date，创建了新分支，依然push了origin master的版本。
+
+### 解决
+
+方法特别简单，实际就是在push之前必须要写commit。
+
+```
+git commit -m "msg"
+git push
+```
+
+
+
+### update
+
+前面的做法还是不能用
+还是需要用大家说的方法，创建分支，提交代码，在与maser分支合并，最后删除分支
+=======
